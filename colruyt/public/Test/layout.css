@@ -1,0 +1,111 @@
+
+/* algemene opmaak */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* opmaak header */
+    header {
+    background-color: #016c29;
+    padding: 20px;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav img {
+    height: 50px;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    margin-left: 20px;
+    }
+    
+    nav ul li:first-child {
+    margin-left: 0;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    }
+    
+    nav ul li a:hover {
+    color: #f6b900;
+    }
+    
+    /* opmaak productlijst */
+    .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .product {
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product img {
+    width: 100%;
+    }
+    
+    .product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: bold;
+    }
+    
+    .product p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #666;
+    }
+    
+    .product p.price {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #016c29;
+    }
+    
+    .product button {
+    background-color: #f6b900;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+    font-weight: bold;
+    }
+    
+    .product button:hover {
+    background-color: #016c29;
+    }
+    
+    /* opmaak footer */
+    footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    }
