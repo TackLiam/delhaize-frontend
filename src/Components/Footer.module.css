@@ -1,0 +1,34 @@
+@import "../constants.css";
+
+footer {
+  background-color: var(--FooterBackground);
+  padding: 50px;
+  color: white;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 25px;
+  width: auto;
+}
+
+.creditCard {
+  height: 20px;
+  width: auto;
+  padding: 2px;
+}
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 300;
+  color: lightgrey;
+}

@@ -1,0 +1,74 @@
+@import "../constants.css";
+.header {
+  width: auto;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  padding-top: 5px;
+}
+
+.buttonContainer {
+  height: 32px;
+  margin: auto 0;
+  display: flex;
+  width: auto;
+}
+
+.aanmelden {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.aanmelden svg {
+  height: 20px;
+  width: 20px;
+}
+
+.aanmelden p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.aanmelden:hover {
+  background-color: var(--HoverGreyLight);
+}
+
+.winkelmandje {
+  margin-left: 15px;
+  height: 100%;
+  background-color: var(--GreenMain);
+  border: unset;
+  border-radius: 15px;
+  padding: 0px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.winkelmandje svg {
+  height: 20px;
+  width: 20px;
+  fill: white;
+}
+.winkelmandje p {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.winkelmandje:hover {
+  background-color: var(--GreenMainHover);
+}

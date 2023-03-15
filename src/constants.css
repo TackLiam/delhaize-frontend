@@ -1,0 +1,10 @@
+:root {
+  --MainBackground: #f1f6d5;
+  --NavBarBackground: #424242;
+  --FooterBackground: #25232c;
+  --GreenMain: #447901;
+  --GreenMainHover: #223d01;
+
+  --HoverGreyLight: #eee;
+  --HoverGreyDark: #aaa;
+}

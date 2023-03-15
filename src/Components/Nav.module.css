@@ -1,0 +1,7 @@
+@import "../constants.css";
+
+nav {
+  height: 40px;
+  width: auto;
+  background-color: var(--NavBarBackground);
+}
