@@ -1,7 +1,7 @@
-ul {
+.list {
   list-style-type: none;
 }
-li {
+.listItem {
   display: inline-block;
   padding: 0px 5px;
 }

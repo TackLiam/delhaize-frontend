@@ -3,8 +3,8 @@ import SocialMediaCSS from "./SocialMedia.module.css";
 
 const SocialMedia = () => {
   return (
-    <ul>
-      <li>
+    <ul className={SocialMediaCSS.list}>
+      <li className={SocialMediaCSS.listItem}>
         <a href="https://www.facebook.com/Delhaize">
           <img
             src="//static.delhaize.be/site/binaries/_ht_1652277600000/content/gallery/footer/social-link/facebook.svg"
@@ -13,7 +13,7 @@ const SocialMedia = () => {
           ></img>
         </a>
       </li>
-      <li>
+      <li className={SocialMediaCSS.listItem}>
         <a href="https://www.instagram.com/delhaizebelgium/">
           <img
             src="//static.delhaize.be/site/binaries/_ht_1652277600000/content/gallery/footer/social-link/instagram.svg"
@@ -22,7 +22,7 @@ const SocialMedia = () => {
           ></img>
         </a>
       </li>
-      <li>
+      <li className={SocialMediaCSS.listItem}>
         <a href="https://www.youtube.com/user/delhaizebelgium">
           <img
             src="//static.delhaize.be/site/binaries/_ht_1652277600000/content/gallery/footer/social-link/youtube.svg"
@@ -31,7 +31,7 @@ const SocialMedia = () => {
           ></img>
         </a>
       </li>
-      <li>
+      <li className={SocialMediaCSS.listItem}>
         <a href="https://www.linkedin.com/company/delhaize-belgium/mycompany/">
           <img
             src="//static.delhaize.be/site/binaries/_ht_1652277600000/content/gallery/footer/social-link/linkedin.svg"
@@ -40,7 +40,7 @@ const SocialMedia = () => {
           ></img>
         </a>
       </li>
-      <li>
+      <li className={SocialMediaCSS.listItem}>
         <a href="https://www.pinterest.com/delhaizebelgium/_created/">
           <img
             src="//static.delhaize.be/site/binaries/_ht_1652277600000/content/gallery/footer/social-link/pinterest.svg"

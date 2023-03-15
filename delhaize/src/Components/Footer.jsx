@@ -19,12 +19,12 @@ const Footer = () => {
         </div>
         <div className="CreditCardsContainer">
           <img src={Visa} alt="Visa" className={FooterCSS.creditCard} />
-          <img src={Maestro} alt="Maestro" className={FooterCSS.creditCard} />
           <img
             src={Mastercard}
             alt="Mastercard"
             className={FooterCSS.creditCard}
           />
+          <img src={Maestro} alt="Maestro" className={FooterCSS.creditCard} />
         </div>
       </div>
     </footer>
